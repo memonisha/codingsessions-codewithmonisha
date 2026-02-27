@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Agbalumo';
+  src: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Agbalumo-Regular-lOE7hqMaMvYLpnD41yo8PJb3EXVxWt.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Agbalumo', cursive;
+  }
+  
+  nav a, nav button, [role="navigation"] a, [role="navigation"] button {
+    font-family: 'Agbalumo', cursive;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 240 30% 97%;
+    --foreground: 240 20% 15%;
+    --card: 240 40% 99%;
+    --card-foreground: 240 20% 15%;
+    --popover: 240 40% 99%;
+    --popover-foreground: 240 20% 15%;
+    --primary: 240 40% 30%;
+    --primary-foreground: 240 30% 97%;
+    --secondary: 270 50% 75%;
+    --secondary-foreground: 240 20% 15%;
+    --muted: 240 15% 85%;
+    --muted-foreground: 240 10% 45%;
+    --accent: 180 60% 55%;
+    --accent-foreground: 240 30% 97%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 20% 90%;
+    --input: 240 20% 90%;
+    --ring: 240 40% 30%;
+    --chart-1: 240 40% 30%;
+    --chart-2: 180 60% 55%;
+    --chart-3: 270 50% 75%;
+    --chart-4: 240 30% 50%;
+    --chart-5: 180 50% 40%;
+    --radius: 0.75rem;
+    --sidebar-background: 240 30% 97%;
+    --sidebar-foreground: 240 20% 15%;
+    --sidebar-primary: 240 40% 30%;
+    --sidebar-primary-foreground: 240 30% 97%;
+    --sidebar-accent: 270 50% 75%;
+    --sidebar-accent-foreground: 240 20% 15%;
+    --sidebar-border: 240 20% 90%;
+    --sidebar-ring: 180 60% 55%;
+  }
+  .dark {
+    --background: 240 20% 12%;
+    --foreground: 240 30% 95%;
+    --card: 240 25% 18%;
+    --card-foreground: 240 30% 95%;
+    --popover: 240 25% 18%;
+    --popover-foreground: 240 30% 95%;
+    --primary: 240 60% 65%;
+    --primary-foreground: 240 20% 12%;
+    --secondary: 270 50% 75%;
+    --secondary-foreground: 240 20% 12%;
+    --muted: 240 15% 35%;
+    --muted-foreground: 240 15% 65%;
+    --accent: 180 70% 60%;
+    --accent-foreground: 240 20% 12%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 15% 25%;
+    --input: 240 15% 25%;
+    --ring: 240 60% 65%;
+    --chart-1: 240 60% 65%;
+    --chart-2: 180 70% 60%;
+    --chart-3: 270 50% 75%;
+    --chart-4: 240 50% 50%;
+    --chart-5: 180 60% 50%;
+    --sidebar-background: 240 20% 12%;
+    --sidebar-foreground: 240 30% 95%;
+    --sidebar-primary: 240 60% 65%;
+    --sidebar-primary-foreground: 240 20% 12%;
+    --sidebar-accent: 270 50% 75%;
+    --sidebar-accent-foreground: 240 30% 95%;
+    --sidebar-border: 240 15% 25%;
+    --sidebar-ring: 180 70% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
