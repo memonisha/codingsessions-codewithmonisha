@@ -30,7 +30,7 @@ export default function VideoIntroduction() {
             Hello there 👋🏻
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Here's a glimpse into how I teach and support my students...
+  
           </p>
         </motion.div>
 
