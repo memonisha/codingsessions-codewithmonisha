@@ -8,8 +8,8 @@ const _geist = Geist({ subsets: ['latin'] })
 const _geistMono = Geist_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Er. Monisha Sharma - Coding Educator & Researcher',
-  description: 'Global coding educator and researcher inspiring learners through technology education. Explore web development, AI/ML, game development, and more.',
+  title: 'Hello 👋🏻, It's Monisha!,
+  description: '',
   generator: 'v0.app',
   icons: {
     // using instructor photo stored in public directory
