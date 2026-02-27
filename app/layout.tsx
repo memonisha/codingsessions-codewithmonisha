@@ -11,6 +11,13 @@ export const metadata: Metadata = {
   title: 'Er. Monisha Sharma - Coding Educator & Researcher',
   description: 'Global coding educator and researcher inspiring learners through technology education. Explore web development, AI/ML, game development, and more.',
   generator: 'v0.app',
+  icons: {
+    // using instructor photo stored in public directory
+    // browsers generally prefer .ico or .png, but jpg often works too
+    icon: '/MONISHA_SHARMA.jpg',      
+    shortcut: '/MONISHA_SHARMA.jpg',  
+    apple: '/MONISHA_SHARMA.jpg',     
+  },
 }
 
 export default function RootLayout({
