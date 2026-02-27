@@ -61,7 +61,7 @@ export default function Instructor() {
                   <div className="space-y-2">
                     <h4 className="font-semibold text-primary text-lg">Background</h4>
                     <p className="text-foreground/70 leading-relaxed">
-                      Computer Science Engineer with 7+ years of dedicated experience in technology education and research. Passionate about making complex concepts accessible to learners of all ages.
+                      Computer Science Engineer with 8.5+ years of dedicated experience in technology education and research. Passionate about making complex concepts accessible to learners of all ages.
                     </p>
                   </div>
 
