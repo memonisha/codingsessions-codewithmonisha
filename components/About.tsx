@@ -41,7 +41,7 @@ export default function About() {
           </p>
 
           <p>
-            Welcome to my corner of the digital world, where research, education and technology intersect in exciting and meaningful ways. With a background in Computer Science Engineering and seven years of experience as a dedicated Tech Educator and Researcher, I've had the privilege of leading nearly 9500 coding sessions globally, inspiring learners of all ages to embrace the world of technology.
+            Welcome to my corner of the digital world, where research, education and technology intersect in exciting and meaningful ways. With a background in Computer Science Engineering and more than eight years of experience as a dedicated Tech Educator and Researcher, I've had the privilege of leading nearly 9500 coding sessions globally, inspiring learners of all ages to embrace the world of technology.
           </p>
 
           <p>
