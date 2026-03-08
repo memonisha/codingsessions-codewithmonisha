@@ -6,46 +6,58 @@ import { ArrowRight, Download } from 'lucide-react'
 
 const courses = [
   {
+    id: 0,
+    title: 'AI for Smart Learning',
+    emoji: '🧠',
+    description: 'A future ready course designed for learners of all age groups who want to use AI effectively in their studies, work, and creative pursuits. Sessions are personalized to each learner’s age, interests, and goals, helping them master the art of using AI tools, prompts, and workflows intelligently in their own domain.',
+  },
+  {
+    id: -1,
+    title: 'Coding Foundations',
+    emoji: '💻',
+    description: 'A fun and engaging introduction to the world of coding, perfect for young learners aged 6 to10 or more, with no prior experience. Through games, puzzles, and creative challenges using visual tools like Blockly, students discover the core principles of programming while building simple apps and projects. Each lesson helps learners create something they can proudly showcase, making their first steps into coding both exciting and rewarding.',
+  },
+  {
     id: 1,
     title: 'Web Development',
     emoji: '🌐',
-    description: 'Master the art of building dynamic and responsive websites, from HTML & CSS basics to advanced JavaScript frameworks and backend development.',
+    description: 'Master the art of building dynamic and responsive websites, from HTML & CSS basics to advanced JavaScript frameworks and backend development. Explore modern frameworks like React and Node.js, and build full-stack applications with databases and APIs.',
   },
   {
     id: 2,
     title: 'Artificial Intelligence & Machine Learning',
     emoji: '🤖',
-    description: 'Explore AI & ML foundations by building neural networks from scratch and creating intelligent systems that recognize patterns and make predictions.',
+    description: 'Explore AI & ML foundations by building neural networks from scratch and creating intelligent systems that recognize patterns and make predictions. Dive into deep learning, computer vision, natural language processing, and real-world applications like recommendation systems.',
   },
   {
     id: 3,
     title: 'C# and Unity Game Development',
     emoji: '🎮',
-    description: 'Learn C# and Unity essentials to build immersive 2D and 3D games from scratch.',
+    description: 'Learn C# and Unity essentials to build immersive 2D and 3D games from scratch. Create interactive game mechanics, physics simulations, and publish your games to multiple platforms.',
   },
   {
     id: 4,
     title: 'AP / IB Computer Science',
     emoji: '📚',
-    description: 'Comprehensive exam prep covering algorithms, data structures, OOP, and problem-solving for high school students.',
+    description: 'Comprehensive exam prep covering algorithms, data structures, OOP, and problem-solving for high school students. Prepare for college-level programming with hands-on projects in computational thinking and software development.',
   },
   {
     id: 5,
     title: 'Java (Core + Advanced)',
     emoji: '☕',
-    description: 'From core Java to advanced concepts and web development using Java frameworks.',
+    description: 'From core Java to advanced concepts and web development using Java frameworks. Build enterprise applications, Android apps, and explore Spring Boot for scalable web services.',
   },
   {
     id: 6,
     title: 'Python Fundamentals',
     emoji: '🐍',
-    description: 'Beginner-friendly Python programming, from simple scripts to real-world applications.',
+    description: 'Beginner-friendly Python programming, from simple scripts to real-world applications. Learn data manipulation, automation scripts, web scraping, and create projects like chatbots and data analyzers.',
   },
   {
     id: 7,
     title: 'Data Science & Data Visualization',
     emoji: '📊',
-    description: 'Data analysis, statistical modeling, and visualization to turn data into meaningful insights using R and Python.',
+    description: 'Data analysis, statistical modeling, and visualization to turn data into meaningful insights using R and Python. Build machine learning models, create interactive dashboards, and explore big data tools for predictive analytics.',
   },
 ]
 
