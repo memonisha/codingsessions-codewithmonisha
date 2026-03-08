@@ -9,7 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Hello 👋🏻, Welcome!',
-  description: 'Join Monisha, a software engineer and educator, for engaging coding and AI classes where learners build games, apps, and future ready tech skills🚀',
+  description: 'Join Monisha, a Computer Science Engineer and educator, for engaging coding and AI classes where learners build games, apps, and future ready tech skills🚀',
   generator: 'none',
   icons: {
     // using instructor photo stored in public directory
