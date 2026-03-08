@@ -53,10 +53,10 @@ export default function Hero() {
 
         <motion.h1
           variants={itemVariants}
-          className="text-5xl sm:text-6xl lg:text-7xl font-bold text-balance mb-6 leading-relaxed"
+          className="text-5xl sm:text-6xl lg:text-7xl font-bold text-balance mb-6 leading-tight"
         >
           Teaching Technology
-          <span className="block bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+          <span className="block bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent leading-relaxed pb-2">
             with Empathy & Purpose
           </span>
         </motion.h1>
