@@ -10,7 +10,7 @@ const testimonials = [
   {
     id: 1,
     name: 'Romy Derman',
-    role: 'Parent of Emilia',
+    role: 'Parent of Emilia - UK',
     content:
       'My daughter Emilia has been coding for a year and a half and loves every moment of the lessons! Monisha is highly skilled at being an inspiring teacher. She keeps Emilia focused and interested while constantly steering her in the right direction. Well done Monisha for making coding fun!',
     rating: 5,
@@ -21,7 +21,7 @@ const testimonials = [
   {
     id: 2,
     name: 'J Lin',
-    role: 'Parent of Sean & Cinty',
+    role: 'Parent of Sean & Cinty - US',
     content:
       'My kids (Sean and Cinty) like the coding classes so much. We\'d especially like to thank their teacher "Monisha Sharma". She is absolutely one of the best. My kids like her teaching style and energetic attitude.',
     rating: 5,
@@ -32,7 +32,7 @@ const testimonials = [
   {
     id: 3,
     name: 'Nataliia Zablotska',
-    role: 'Software Engineer, Adult Learner',
+    role: 'Software Engineer, Adult Learner - UK',
     content:
       'From our very first session, it was evident that Monisha was the coding mentor I was seeking—exceptionally knowledgeable, creative and genuinely passionate about teaching. Her ability to dissect complex concepts into digestible, actionable steps made each session highly productive. I wholeheartedly recommend her to anyone seeking a highly skilled, exceptionally competent, and truly inspiring tech professional!',
     rating: 5,
