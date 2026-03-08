@@ -32,7 +32,7 @@ const testimonials = [
   {
     id: 3,
     name: 'Nataliia Zablotska',
-    role: 'Computer Science Engineer, Adult Learner - UK',
+    role: 'Software Engineer, Adult Learner - UK',
     content:
       'From our very first session, it was evident that Monisha was the coding mentor I was seeking—exceptionally knowledgeable, creative and genuinely passionate about teaching. Her ability to dissect complex concepts into digestible, actionable steps made each session highly productive. I wholeheartedly recommend her to anyone seeking a highly skilled, exceptionally competent, and truly inspiring tech professional!',
     rating: 5,
